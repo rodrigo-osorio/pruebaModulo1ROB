@@ -1,6 +1,3 @@
-/*font-family: 'Oswald', sans-serif;*/
-/*font-family: 'Open Sans', sans-serif;*/
-
 /*Navbar*/
 nav h1{
     font-family: 'Oswald', sans-serif;
@@ -15,8 +12,10 @@ nav h1{
     background-image: url('../img/bg_hero.png');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: left;
-    padding-bottom: 46.063em;
+    background-position: center center;
+    padding-bottom: 45em;
+    
+    
     font-family: 'Oswald', sans-serif;
 }   
 .titulo{
@@ -97,6 +96,11 @@ nav h1{
 .pie{
     font-family: 'Oswald', sans-serif;  
 }
-.iconos{
-    border-radius: 20%;
+.iconos a{
+    color: white;
 }
+/*desaparecer SobreMi*/
+@media (max-width: 600px) {
+    .yo {
+        display: none;
+    }
