@@ -100,7 +100,9 @@ nav h1{
     color: white;
 }
 /*desaparecer SobreMi*/
+
 @media (max-width: 600px) {
     .yo {
         display: none;
     }
+}
