@@ -39,6 +39,7 @@ nav h1{
     background-color: black;
 }
 .yo h3{
+    font-weight: 600;
     line-height: 200%;
 }
 .yo p{
@@ -56,6 +57,46 @@ nav h1{
     width: 150px;
     background-color: black;
 }
+.exp h2{
+    font-weight: 600;
+}
 .exp h3{
     font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+.cambioTono{
+    color: #097f88;
+}
+
+/*Mis ultumos trabajos*/
+.work{
+    font-family: 'Oswald', sans-serif;  
+}
+.work hr{
+    height: 2px;
+    width: 150px;
+    background-color: white;
+}
+.work h5{
+    font-weight: 600;
+}
+.work p{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*Contacto*/
+.formulario{
+    font-family: 'Oswald', sans-serif;  
+}
+.formulario hr{
+    height: 2px;
+    width: 150px;
+    background-color: black;
+}
+/*Footer*/
+.pie{
+    font-family: 'Oswald', sans-serif;  
+}
+.iconos{
+    border-radius: 20%;
 }
