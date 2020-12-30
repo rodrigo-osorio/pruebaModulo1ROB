@@ -2,12 +2,12 @@
 /*font-family: 'Open Sans', sans-serif;*/
 
 /*Navbar*/
-nav{
-    font-family: 'Oswald', sans-serif
+nav h1{
+    font-family: 'Oswald', sans-serif;
 }
 
 .fondo{
-    background-color: #660066;
+    background-color: #097f88;
 }
 
 /*header*/
@@ -17,4 +17,45 @@ nav{
     background-size: cover;
     background-position: left;
     padding-bottom: 46.063em;
+    font-family: 'Oswald', sans-serif;
 }   
+.titulo{
+    position: relative;
+    display: inline-block;
+    top:42em;
+}
+.titulo hr{
+    height: 2px;
+    background-color: white;
+}
+
+/*Sobre mi*/
+.yo{
+    font-family: 'Open Sans', sans-serif;
+}
+.yo hr{
+    height: 2px;
+    width: 150px;
+    background-color: black;
+}
+.yo h3{
+    line-height: 200%;
+}
+.yo p{
+    line-height: 270%;
+    text-align: justify;
+}
+
+/*Mi experiencia*/
+.exp{
+    font-family: 'Oswald', sans-serif;
+}
+
+.exp hr{
+    height: 2px;
+    width: 150px;
+    background-color: black;
+}
+.exp h3{
+    font-family: 'Open Sans', sans-serif;
+}
